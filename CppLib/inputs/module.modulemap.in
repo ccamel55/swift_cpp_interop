@@ -1,0 +1,4 @@
+module ${LIB_PROJECT_NAME} {
+        umbrella header "${LIB_PROJECT_NAME}.h"
+        export *
+}

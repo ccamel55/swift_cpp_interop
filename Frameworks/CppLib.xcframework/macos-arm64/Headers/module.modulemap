@@ -1,0 +1,4 @@
+module CppLib {
+        umbrella header "CppLib.h"
+        export *
+}
