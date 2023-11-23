@@ -12,24 +12,24 @@
 #include <string>
 #include <memory>
 
-void printString(const std::string& str);
-void incrementValue(int& val);
-
-std::vector<int> getRandomIntVec();
-std::array<int, 10> getIntArray();
-
-void incrementReference(TestClass& classImpl);
-void incrementCopy(TestClass classImpl);
-
-std::shared_ptr<TestClass> getClassPtr();
-void callClassPtr(const std::shared_ptr<TestClass>& classPtr);
-
-namespace random_namespace
-{
-    void callFromNamespace();
-
-    namespace nested_namespace
-    {
-        void callFromNestedNamespace();
-    }
-}
+//void printString(const std::string& str);
+//void incrementValue(int& val);
+//
+//std::vector<int> getRandomIntVec();
+//std::array<int, 10> getIntArray();
+//
+//void incrementReference(TestClass& classImpl);
+//void incrementCopy(TestClass classImpl);
+//
+//std::shared_ptr<TestClass> getClassPtr();
+//void callClassPtr(const std::shared_ptr<TestClass>& classPtr);
+//
+//namespace random_namespace
+//{
+//    void callFromNamespace();
+//
+//    namespace nested_namespace
+//    {
+//        void callFromNestedNamespace();
+//    }
+//}
